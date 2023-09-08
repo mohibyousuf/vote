@@ -33,6 +33,7 @@ spec:
           envFrom:
             - configMapRef:
                 name: vote
+                optional: true
           resources:
             requests:
               memory: "64Mi"
